@@ -13,7 +13,7 @@ if (age < 18) {
     price_ticket -= discount
 } 
 // Sè l'utente avrà più di 18 anni ma meno di 65 verra applicato il 40% di sconto
-else if (age >= 18 && age < 65) {
+else if (age > 65) {
     discount = (price_ticket * 40) / 100;
     price_ticket -= discount
 }
